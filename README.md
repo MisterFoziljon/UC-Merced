@@ -68,6 +68,7 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
 <p align="center">
   <img src="https://github.com/MisterFoziljon/UC-Merced/blob/main/tensorboard.png" />
 </p>
+
 #### 5. Proyektni streamlit yordamida deploy qilish.
 
         (sizning_env) C:\UC-Merced> streamlit run streamlit.py
