@@ -20,38 +20,38 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
 
   * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
-        C:\> git clone https://github.com/MisterFoziljon/CATS_vs_DOGS.git
+        C:\> git clone https://github.com/MisterFoziljon/UC-Merced.git
 
   * Loyiha joylashgan faylga kiring.
          
-        C:\> cd CATS_vs_DOGS
+        C:\> cd UC-Merced
 
 
 #### 3. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
 * O'zingizdagi pip ni so'nggi versiyasiga yangilang.
 
-        C:\CATS_vs_DOGS> python -m pip install --upgrade pip
+        C:\UC-Merced> python -m pip install --upgrade pip
         
 * virtual environment yaratish uchun virtualenv modulini o'rnating.
         
-        C:\CATS_vs_DOGS> python -m pip install --user virtualenv
+        C:\UC-Merced> python -m pip install --user virtualenv
 
 * Yangi environment yaratish uchun unga nom bering.
         
-        C:\CATS_vs_DOGS> python -m venv sizning_env
+        C:\UC-Merced> python -m venv sizning_env
         
 * Virtual environmentni ishga tushiring(aktivlashtiring).
         
-        C:\CATS_vs_DOGS> sizning_env\Scripts\activate.bat
+        C:\UC-Merced> sizning_env\Scripts\activate.bat
         
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
-        (sizning_env) C:\CATS_vs_DOGS> pip install -r requirements.txt
+        (sizning_env) C:\UC-Merced> pip install -r requirements.txt
 
 
 #### 4. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
 
-        (sizning_env) C:\CATS_vs_DOGS> jupyter notebook
+        (sizning_env) C:\UC-Merced> jupyter notebook
         
   * ```Cats vs Dogs.ipynb``` ni ishga tushiring. 
   * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [cats_vs_dogs](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. 
@@ -62,7 +62,7 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
 
 #### 5. Proyektni streamlit yordamida deploy qilish.
 
-        (sizning_env) C:\CATS_vs_DOGS> streamlit run streamlit.py
+        (sizning_env) C:\UC-Merced> streamlit run streamlit.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
