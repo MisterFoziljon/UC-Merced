@@ -53,12 +53,12 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
 
         (sizning_env) C:\UC-Merced> jupyter notebook
         
-  * ```Cats vs Dogs.ipynb``` ni ishga tushiring. 
-  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [cats_vs_dogs](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. 
-  * Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model fayl ko'rinishida saqlanadi. 
-  * Notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan. 
-  * [Modelni yuklab olish](https://drive.google.com/drive/folders/1PSvo9ZzQze6EtGdZpZCDCeWM857f6_1I?usp=share_link)
- 
+  * ```UC_Merged.ipynb``` ni ishga tushiring. 
+  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [cats_vs_dogs](https://www.tensorflow.org/datasets/catalog/uc_merced?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan.
+  * Dataset yordamida 2 xil usulda Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan.
+    1. VGG-19 arxitekturasi transfer learning qilingan ([model](https://drive.google.com/drive/folders/1FiLKxkGaaegD26nwx1fhCYZjRfY7Oj7D?usp=share_link)).
+    2. VGG-19 arxitekturasi noldan qurilgan ([model](https://drive.google.com/file/d/1GvXvsGEg_qmEngBVGrkYQ6TiGVtR3m0b/view?usp=share_linkd)).
+  * Tensorboardga har bir epochdagi loss va accuracy qiymatlari saqlab borilgan. ([Tensorboard]https://tensorboard.dev/experiment/jgldeOnBQFKW0s6voTOrfQ/#scalars)
 
 #### 5. Proyektni streamlit yordamida deploy qilish.
 
