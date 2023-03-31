@@ -65,7 +65,9 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
    | **VGG-19 transfer learning** |0.4658|0.89| 74 180 693 |
    | **VGG-19 arxitektura** |3.04909|0.3|74 166 357|
   * Tensorboardga har bir epochdagi loss va accuracy qiymatlari saqlab borilgan. ([Tensorboard](https://tensorboard.dev/experiment/jgldeOnBQFKW0s6voTOrfQ/#scalars))
-
+<p align="center">
+  <img src="https://github.com/MisterFoziljon/UC-Merced/blob/main/tensorboard.png" />
+</p>
 #### 5. Proyektni streamlit yordamida deploy qilish.
 
         (sizning_env) C:\UC-Merced> streamlit run streamlit.py
