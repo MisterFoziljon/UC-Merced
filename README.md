@@ -54,10 +54,16 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
         (sizning_env) C:\UC-Merced> jupyter notebook
         
   * ```UC_Merged.ipynb``` ni ishga tushiring. 
-  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [cats_vs_dogs](https://www.tensorflow.org/datasets/catalog/uc_merced?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan.
+  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [uc_merced](https://www.tensorflow.org/datasets/catalog/uc_merced?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan.
+  
   * Dataset yordamida 2 xil usulda Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan.
-    1. VGG-19 arxitekturasi transfer learning qilingan ([model](https://drive.google.com/drive/folders/1FiLKxkGaaegD26nwx1fhCYZjRfY7Oj7D?usp=share_link)).
-    2. VGG-19 arxitekturasi noldan qurilgan ([model](https://drive.google.com/file/d/1GvXvsGEg_qmEngBVGrkYQ6TiGVtR3m0b/view?usp=share_linkd)).
+    - VGG-19 arxitekturasi transfer learning qilingan ([model](https://drive.google.com/drive/folders/1FiLKxkGaaegD26nwx1fhCYZjRfY7Oj7D?usp=share_link)).
+    - VGG-19 arxitekturasi noldan qurilgan ([model](https://drive.google.com/file/d/1GvXvsGEg_qmEngBVGrkYQ6TiGVtR3m0b/view?usp=share_linkd)).
+   
+   | **Arxitektura ko'rinishi** | **Validation Loss** | **Validation Accuracy** | **Parametrlar soni** |
+   |---------------|-----------------|---------------|-----------------|
+   | **VGG-19 transfer learning** |0.4658|0.89| 74 180 693 |
+   | **VGG-19 arxitektura** |3.04909|0.3|74 166 357|
   * Tensorboardga har bir epochdagi loss va accuracy qiymatlari saqlab borilgan. ([Tensorboard](https://tensorboard.dev/experiment/jgldeOnBQFKW0s6voTOrfQ/#scalars))
 
 #### 5. Proyektni streamlit yordamida deploy qilish.
