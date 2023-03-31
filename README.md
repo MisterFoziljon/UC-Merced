@@ -73,9 +73,9 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
 
-![streamlit1](https://github.com/MisterFoziljon/CATS_vs_DOGS/blob/main/streamlit1.png)
+![streamlit1](https://github.com/MisterFoziljon/UC-Merced/blob/main/streamlit1.png)
   
   * Rasm faylini yuklab oling va ```Predict``` tugmachasini bosing. Model yuklab olingan tasvirni qaysi turkumga tegishli ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
 
 
-![streamlit3](https://github.com/MisterFoziljon/CATS_vs_DOGS/blob/main/streamlit2.png)
+![streamlit3](https://github.com/MisterFoziljon/UC-Merced/blob/main/streamlit2.png)
