@@ -10,7 +10,7 @@ UC-merced - har bir classi 100 ta tasvirdan iborat bo'lgan 21 ta sinfli quruqlik
 * Dataset hajmi: 317.07 MB 
 
 <p align="center">
-  <img src="https://github.com/MisterFoziljon/UC-Merced/blob/main/rasmlar/uc_merced-2.0.0.png" />
+  <img src="https://github.com/MisterFoziljon/UC-Merced/blob/main/uc_merced-2.0.0.png" />
 </p>
 
 #### 2. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
